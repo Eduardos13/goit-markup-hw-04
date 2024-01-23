@@ -119,6 +119,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ), url(/images/backgroung.jpg);
+    background-size: cover;
 }
 
 .hero-image-block {
