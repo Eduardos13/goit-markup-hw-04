@@ -1,3 +1,5 @@
+/* =======General========= */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;;
@@ -28,6 +30,8 @@ img {
     padding: 0 15px;
 }
 
+/* =======Header========= */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
@@ -35,11 +39,11 @@ img {
     justify-content: center;
 }
 
-.header_navigation {
+.header-navigation {
     display: flex;
 }
 
-.header_logo {
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #4d5ae5;
@@ -50,7 +54,7 @@ img {
     margin-right: 76px
 }
 
-.logo_studio {
+.header-logo span{
     color: #2e2f42;
 }
 
@@ -62,14 +66,14 @@ img {
     margin-right: auto;
 } 
 
-.navigation_list {
+.navigation-list {
     font-family: "Roboto";
     font-size: 16px;
     display: flex;
     gap: 40px;
 }
 
-.navigation_item {
+.navigation-item {
     text-decoration: none;
     color: #2E2F42;
     font-weight: 500;
@@ -79,8 +83,8 @@ img {
 } 
 
 
-.navigation_item:hover,
-.navigation_item:focus {
+.navigation-item:hover,
+.navigation-item:focus {
     color: #404bbf;
 }
 
@@ -92,33 +96,39 @@ img {
     margin-bottom: 24px;
 }
 
-.address_item {
+.address-item {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em; 
 
 }
 
-.address_item:hover,
-.address_item:focus {
+.address-item:hover,
+.address-item:focus {
     color: #404bbf;
 }
 
-.hero_image {
+/* =======Hero-image========= */
+
+.hero-image {
     background-color: #2E2F42;
     justify-content: center;
     align-items: center;
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), url(/images/backgroung.jpg);
 }
 
-.hero_image_block {
+.hero-image-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main_title {
+.main-title {
     font-size: 56px;
     color:#ffffff;
     line-height: 1.07;
@@ -164,16 +174,19 @@ img {
     overflow: hidden;
 }
 
-.about_us {
+/* =======About-us========= */
+
+
+.about-us {
     padding: 120px 0
 }
 
-.about_us_list {
+.about-us-list {
     display: flex;
     gap: 24px;
 }
 
-.about_us_item {
+.about-us-item {
    width: calc((100% - 24px * 3) / 4);
 }
 
@@ -186,18 +199,21 @@ img {
     margin-bottom: 8px;
 }
 
-.advantage_text {
+.advantage-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.our_team {
+/* =======Our-team========= */
+
+
+.our-team {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
 
-.section_name {
+.section-name {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -207,7 +223,7 @@ img {
     margin-bottom: 72px;
 }
 
-.team_members {
+.team-members {
     display: flex;
     gap: 24px;
 
@@ -223,7 +239,7 @@ img {
     border-radius: 0px 0px 4px 4px; 
 }
 
-.member_info {
+.member-info {
     padding: 32px 0;
 }
 
@@ -244,32 +260,37 @@ img {
     text-align: center;
 }
 
-.our_product {
+/* =======Our-product========= */
+
+
+.our-product {
     padding: 120px 0 120px 0;
 
 }
 
-.our_product_list {
+.our-product-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
 }
 
-.our_product_item {
+.our-product-item {
     width: calc((100% - 2 * 24px) / 3);
 }
 
-.product_description {
+.product-description {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
 
-.product_description .name,
-.product_description .description {
+.product-description .name,
+.product-description .description {
     text-align: left;
 }
+
+/* =======Footer========= */
 
 
 .footer {
@@ -277,7 +298,7 @@ img {
     padding: 100px 0;
 }
 
-.footer_logo {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     color: #4d5ae5;
@@ -287,16 +308,18 @@ img {
     text-transform: uppercase;
     display: inline-block; 
     margin-bottom: 16px; 
+    
 }
 
-.footer_logo_studio {
+.footer-logo span {
     color: #f4f4fd;
 }
 
-.footer_description {
+.footer-description {
     font-size: 16px;
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-left: 0;
 }
