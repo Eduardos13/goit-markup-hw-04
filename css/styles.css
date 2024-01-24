@@ -357,7 +357,7 @@ img {
     cursor: pointer;
 }
 
-.our-product-item:hover p {
+.our-product-item:hover .product-image-text {
     transform: translateY(0%);
 }
 
@@ -406,7 +406,7 @@ img {
 }
 
 .footer-logo-container {
-    margin-left: 120px;
+    margin-right: 120px; 
 }
 
 .footer-logo {
