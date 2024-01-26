@@ -145,6 +145,7 @@ img {
     max-width: 1440px;
     background-repeat: no-repeat; 
     background-position: center; 
+    margin: 0 auto;
 }
 
 .hero-image-block {
@@ -449,9 +450,6 @@ margin-bottom: 16px;
     gap: 16px;
 }
 
-.footer-social-links-container {
-    margin-left: 120px;
-}
 
 .footer-social-item {
     width: 40px;
